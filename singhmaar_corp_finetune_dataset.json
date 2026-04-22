@@ -1,0 +1,502 @@
+[
+  {
+    "instruction": "What is the annual leave policy for permanent employees at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Permanent employees receive 18 days of paid annual leave per year, accrued monthly from the date of joining. Requests must be submitted via the HR portal at least 48 hours in advance, and up to 10 unused days may be carried forward to the next calendar year."
+  },
+  {
+    "instruction": "Can I encash my unused earned leaves if I resign from A. Singhmaar Corp?",
+    "input": "",
+    "output": "Yes. Upon resignation, unused earned leaves (up to a maximum of 30 days) are encashed at your last drawn basic salary rate. The amount is settled in your full and final payment, typically processed within 45 working days of your last working day."
+  },
+  {
+    "instruction": "What is the maternity leave entitlement at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Female employees are entitled to 26 weeks of paid maternity leave as per the Maternity Benefit (Amendment) Act, 2017. This applies to employees who have completed at least 80 working days in the 12 months preceding the expected delivery date."
+  },
+  {
+    "instruction": "My manager has denied my work-from-home request. What is the escalation process?",
+    "input": "",
+    "output": "You may escalate to your skip-level manager or raise a formal grievance through the HR portal under the 'Workplace Concerns' section. HR will acknowledge the ticket within 2 working days and facilitate a resolution within 7 working days."
+  },
+  {
+    "instruction": "How do I apply for an internal job transfer to another division like SinghmaarHealth from SinghmaarTech?",
+    "input": "",
+    "output": "Internal transfer applications can be submitted on the HR portal after completing a minimum of 18 months in your current role. You must notify your current reporting manager and obtain a no-objection clearance before the hiring panel for the new division interviews you."
+  },
+  {
+    "instruction": "What is the probation period for new joiners at A. Singhmaar Corp and can it be extended?",
+    "input": "",
+    "output": "The standard probation period is 6 months for all new hires. It can be extended by up to 3 months based on performance review outcomes, with written communication issued to the employee at least 15 days before the original probation end date."
+  },
+  {
+    "instruction": "Summarize the key points in this HR policy update and tell me what changes affect me as a mid-level employee.",
+    "input": "Effective April 1, 2026: (1) Remote work policy updated — employees can work remotely up to 2 days per week with manager approval. (2) Variable pay disbursement moved from July to September. (3) Medical insurance cover increased to ₹5 lakh per family. (4) Mandatory POSH training now required annually for all staff above Band 4.",
+    "output": "Key changes for mid-level employees: remote work is now allowed up to 2 days per week with approval, variable pay will be disbursed in September instead of July, family medical cover has increased to ₹5 lakh, and annual POSH training is now mandatory for Band 4 and above."
+  },
+  {
+    "instruction": "Is there a flexi-hours policy at A. Singhmaar Corp and how do I opt in?",
+    "input": "",
+    "output": "Yes. Employees in eligible roles can opt into the flexi-hours program, which allows core hours of 11 AM to 4 PM with flexible start and end times. To opt in, submit a request through the HR portal under 'Work Arrangement Preferences' and get your manager's approval."
+  },
+  {
+    "instruction": "How many sick leaves am I entitled to per year and do they carry forward?",
+    "input": "",
+    "output": "Employees are entitled to 12 paid sick leaves per calendar year. Sick leaves do not carry forward and lapse at year-end. A medical certificate is required for absences exceeding 2 consecutive days."
+  },
+  {
+    "instruction": "What is the performance review cycle at A. Singhmaar Corp and how are ratings distributed?",
+    "input": "",
+    "output": "Performance reviews follow a bi-annual cycle — a mid-year check-in in September and an annual appraisal in March. Ratings are distributed on a 5-point scale, and a bell curve is applied at the division level to ensure calibration across teams."
+  },
+  {
+    "instruction": "What is the SLA for P1 incident resolution on SinghmaarTech's cloud infrastructure platform?",
+    "input": "",
+    "output": "P1 incidents on SinghmaarTech's cloud infrastructure platform carry a 99.9% uptime SLA with a response time of 15 minutes and a resolution target of 4 hours. Breaches trigger automatic credit issuance as per the customer's service agreement."
+  },
+  {
+    "instruction": "Our enterprise client is asking for a SOC 2 Type II report for SinghmaarTech's SaaS product. What should I send them?",
+    "input": "",
+    "output": "Direct the client to the SinghmaarTech Trust Center at trust.singhmaartech.in, where the latest SOC 2 Type II report (valid through March 2027) is available under NDA. For custom security review requests, loop in the InfoSec team at security@singhmaartech.in."
+  },
+  {
+    "instruction": "A client is reporting that our API gateway is returning 504 timeout errors. What is the standard triage process?",
+    "input": "",
+    "output": "Initiate a P1 incident ticket on the SinghmaarTech ops console and notify the on-call SRE via PagerDuty. The standard triage sequence is: check upstream service health, validate gateway timeout configs, inspect recent deployment logs, and engage the client with a status update within 30 minutes."
+  },
+  {
+    "instruction": "What authentication methods does the SinghmaarTech API support?",
+    "input": "",
+    "output": "The SinghmaarTech API supports OAuth 2.0 (preferred for enterprise integrations), API key-based authentication for lightweight use cases, and JWT bearer tokens for session-scoped access. All endpoints require HTTPS and enforce rate limits per the client's plan tier."
+  },
+  {
+    "instruction": "Draft a one-paragraph response to a client asking why their SinghmaarTech dashboard data is showing a 6-hour lag.",
+    "input": "Client email: We are seeing data in our analytics dashboard that is 6 hours old. This is affecting our operational decisions. Please advise.",
+    "output": "We sincerely apologize for the inconvenience. We identified a delayed sync job in our data pipeline that caused a 6-hour lag in dashboard reporting. The issue has been resolved and your data is now current as of 10 minutes ago. We are implementing additional monitoring to prevent recurrence and will share a detailed RCA within 24 hours."
+  },
+  {
+    "instruction": "What is the rate limit on the SinghmaarTech REST API for Enterprise plan customers?",
+    "input": "",
+    "output": "Enterprise plan customers on SinghmaarTech's REST API are allocated 10,000 requests per minute per API key, with burst allowance up to 15,000 RPM for up to 60 seconds. Custom limits can be negotiated through your account manager for high-volume workloads."
+  },
+  {
+    "instruction": "How do I request a sandbox environment for integrating with SinghmaarTech's B2B platform?",
+    "input": "",
+    "output": "Sandbox access requests can be submitted through the SinghmaarTech Developer Portal at dev.singhmaartech.in. After email verification, a sandbox environment with mock data is provisioned within 2 business hours. Sandbox credentials expire after 90 days unless renewed."
+  },
+  {
+    "instruction": "Summarize the key technical risks in this engineering report and suggest next steps.",
+    "input": "SinghmaarTech Q1 Engineering Risk Report: (1) Legacy monolith still accounts for 40% of production traffic; migration to microservices is 6 months behind schedule. (2) Database connection pool exhaustion incidents increased 3x in January. (3) Two senior SREs resigned; on-call coverage is thin. (4) Third-party payment gateway has deprecated the API version we use.",
+    "output": "Key risks: monolith migration delay increases reliability exposure, DB connection pool issues threaten uptime, SRE attrition weakens incident response, and the deprecated payment gateway API is a critical compliance and availability risk. Recommended next steps: fast-track SRE hiring, migrate the payment gateway integration within 30 days, and schedule a DB connection pool audit with the infrastructure team."
+  },
+  {
+    "instruction": "What are the data residency options available to Indian clients on SinghmaarTech's cloud platform?",
+    "input": "",
+    "output": "SinghmaarTech offers India-only data residency on its Mumbai and Hyderabad cloud regions, ensuring all customer data at rest and in transit stays within Indian jurisdiction. This option is available on Professional and Enterprise plans and is mandatory for clients in regulated sectors like BFSI and healthcare."
+  },
+  {
+    "instruction": "A developer is asking how to enable webhook notifications for order status updates in our platform. What should I tell them?",
+    "input": "",
+    "output": "Webhooks can be configured from the SinghmaarTech developer console under Settings > Integrations > Webhooks. The developer should register an HTTPS endpoint, select the 'order.status.updated' event, and set a signing secret for payload verification. Full documentation is available at docs.singhmaartech.in/webhooks."
+  },
+  {
+    "instruction": "What are the available commercial lease tenures at SinghmaarProperties' Gurugram business park?",
+    "input": "",
+    "output": "SinghmaarProperties' Gurugram business park offers commercial leases in standard tenures of 3, 5, and 9 years, with a lock-in period of 12 months. Custom tenures can be discussed for anchor tenants leasing above 20,000 sq ft. Fit-out periods of up to 60 days are provided rent-free for long-term leases."
+  },
+  {
+    "instruction": "A tenant is complaining that the HVAC in their office unit has been broken for 3 days. How should I respond?",
+    "input": "",
+    "output": "Apologize for the disruption and raise an urgent facilities ticket tagged as Priority 1 in the SinghmaarProperties tenant portal. Per the lease agreement, HVAC issues must be resolved within 48 hours; since SLA has been breached, escalate to the facilities manager and offer the tenant a rental credit for the downtime per the service level schedule."
+  },
+  {
+    "instruction": "What amenities are included in the common area maintenance charge for tenants at SinghmaarProperties?",
+    "input": "",
+    "output": "The Common Area Maintenance (CAM) charge covers 24/7 security, centralized AC in lobbies and corridors, housekeeping of common areas, DG power backup, parking management, fire safety systems, and landscaping. Charges are calculated on a per-sq-ft basis and revised annually with a cap of 8% increase."
+  },
+  {
+    "instruction": "Can a tenant sublease a portion of their office space in SinghmaarProperties buildings?",
+    "input": "",
+    "output": "Subleasing requires written consent from SinghmaarProperties' leasing team and is typically permitted for up to 30% of the leased area, subject to the subtenant meeting the building's tenant eligibility criteria. A subleasing amendment to the original lease agreement must be executed before occupancy."
+  },
+  {
+    "instruction": "Summarize this lease expiry notice and list what the tenant must do next.",
+    "input": "Dear Tenant, Your lease for Unit 4B, Tower 2, SinghmaarProperties Noida expires on June 30, 2026. Please inform us of your intention to renew or vacate by May 1, 2026. If renewing, new lease terms will be shared by May 15. A security deposit adjustment and unit inspection will be scheduled before June 15.",
+    "output": "The lease for Unit 4B, Tower 2 expires June 30, 2026. The tenant must notify SinghmaarProperties of their renewal or vacation intent by May 1, 2026. If renewing, they should review revised terms by May 15 and schedule a security deposit adjustment and unit inspection before June 15."
+  },
+  {
+    "instruction": "What is the security deposit structure for new commercial tenants at SinghmaarProperties?",
+    "input": "",
+    "output": "New commercial tenants are required to pay a security deposit equivalent to 6 months of base rent, held interest-free for the lease duration. The deposit is refunded within 45 days of lease termination after deducting any dues, penalties, or restoration costs."
+  },
+  {
+    "instruction": "How do tenants raise maintenance requests for SinghmaarProperties buildings?",
+    "input": "",
+    "output": "Tenants can raise maintenance requests through the SinghmaarProperties Tenant Portal at tenant.singhmaarproperties.in, via the mobile app, or by calling the 24/7 facility helpdesk at 1800-200-9900. Requests are acknowledged within 1 hour and triaged by priority level."
+  },
+  {
+    "instruction": "What is the process for a new tenant to get a parking space allotted at SinghmaarProperties?",
+    "input": "",
+    "output": "Parking allotment is processed during lease onboarding. Each leased unit includes a base allocation of 1 slot per 500 sq ft of office space. Additional slots can be purchased from the facilities manager at the applicable monthly rate, subject to availability in the building's parking inventory."
+  },
+  {
+    "instruction": "Is there a smart building energy monitoring feature available to tenants in SinghmaarProperties?",
+    "input": "",
+    "output": "Yes. SinghmaarProperties' smart buildings are equipped with IoT-based energy monitoring dashboards accessible through the Tenant Portal. Tenants can track real-time electricity, water, and HVAC consumption for their units and download monthly usage reports for sustainability reporting."
+  },
+  {
+    "instruction": "A prospective tenant wants to know if SinghmaarProperties offers green-certified office spaces.",
+    "input": "",
+    "output": "Yes. All new SinghmaarProperties commercial developments hold IGBC Gold or Platinum certification, and select towers in Gurugram and Pune are LEED Platinum certified. Tenants benefit from energy-efficient infrastructure, rooftop solar, rainwater harvesting, and can use occupancy in certified buildings toward their own ESG commitments."
+  },
+  {
+    "instruction": "A startup founder is asking SinghmaarCapital for a meeting. What information should I collect before scheduling?",
+    "input": "",
+    "output": "Before scheduling, collect the startup's one-pager or pitch deck, sector and stage, current MRR or ARR (if applicable), funding ask and proposed use of funds, and any existing investor names. Route the information to the relevant investment analyst for a pre-screening before confirming the meeting."
+  },
+  {
+    "instruction": "Evaluate this startup brief and give a preliminary investment opinion.",
+    "input": "Startup: PayEasy. Sector: B2B fintech. Stage: Pre-Series A. MRR: ₹18L. YoY growth: 210%. Product: Invoice discounting platform for MSMEs. Team: 2 ex-bankers, 1 IIT Bombay grad. Seeking: ₹8 Cr for 12% equity. Burn rate: ₹4.5L/month. Runway: 24 months.",
+    "output": "PayEasy shows strong indicators: 210% YoY growth, healthy 24-month runway, and a relevant MSME-focused product with a credible founding team. At ₹8 Cr for 12%, the implied valuation of ~₹67 Cr appears reasonable at this MRR. Recommend advancing to due diligence with a focus on credit risk model robustness and regulatory compliance with RBI guidelines."
+  },
+  {
+    "instruction": "What sectors is SinghmaarCapital currently focused on for new investments?",
+    "input": "",
+    "output": "SinghmaarCapital's current investment thesis is focused on B2B SaaS, climate tech, healthtech, and India-stack-enabled fintech at Seed to Series A stages. We are selectively evaluating deep-tech and AI-native startups with clear enterprise go-to-market paths."
+  },
+  {
+    "instruction": "Draft a polite rejection email to a startup we've decided not to invest in.",
+    "input": "Startup: GreenBox Logistics. Decision: Pass. Reason: Market too fragmented, unit economics unclear at scale, and the sector is not in our current focus.",
+    "output": "Subject: Re: GreenBox Logistics — SinghmaarCapital Feedback\n\nDear Team GreenBox,\n\nThank you for sharing your journey with us. After careful review, we have decided not to move forward at this time. The logistics sector dynamics and our current portfolio focus make this a fit we'd prefer to revisit at a later stage. We genuinely respect what you are building and wish you great success. Please keep us updated as you progress.\n\nWarm regards,\nSinghmaarCapital Investment Team"
+  },
+  {
+    "instruction": "What is the typical investment ticket size for SinghmaarCapital at the Seed stage?",
+    "input": "",
+    "output": "SinghmaarCapital's standard Seed stage ticket size ranges from ₹1.5 Cr to ₹5 Cr, typically for 8% to 15% equity. We co-invest alongside lead angels or institutional Seed funds and can lead rounds in sectors where we have deep conviction and an operating advantage."
+  },
+  {
+    "instruction": "A portfolio founder is asking for a warm introduction to a potential enterprise client. How should I handle this?",
+    "input": "",
+    "output": "Review the founder's ask and identify the relevant contact in SinghmaarCapital's network CRM. If the match is appropriate, coordinate a double opt-in introduction — confirm interest from both sides before making the warm intro over email. Log the activity in the portfolio engagement tracker for follow-up."
+  },
+  {
+    "instruction": "What governance rights does SinghmaarCapital typically negotiate in a Seed round term sheet?",
+    "input": "",
+    "output": "SinghmaarCapital's standard Seed term sheet includes information rights (quarterly financials and annual audited statements), a board observer seat, pro-rata rights for the next round, and standard protective provisions such as approval rights on new equity issuance, acquisitions above a defined threshold, and key management changes."
+  },
+  {
+    "instruction": "Summarize this portfolio company's quarterly update and flag any concerns.",
+    "input": "MediLink Health Q3 Update: Revenue ₹2.1 Cr (target: ₹2.8 Cr), miss of 25%. Gross margin improved to 48%. Churn increased to 9% MoM. Hired 2 enterprise sales reps. Runway: 8 months. Fundraising round in progress — no term sheet yet.",
+    "output": "MediLink missed Q3 revenue target by 25% and churn has increased to a concerning 9% MoM. The 8-month runway with no term sheet in hand is a high-priority flag. Recommend an urgent call with the founder to review sales pipeline health, churn root causes, and fundraising timeline. Bridge financing options may need to be explored."
+  },
+  {
+    "instruction": "How does SinghmaarCapital support portfolio companies beyond capital?",
+    "input": "",
+    "output": "SinghmaarCapital offers portfolio companies access to the conglomerate's operating network across SinghmaarTech, SinghmaarHealth, SinghmaarProperties, and SinghmaarEdu for pilot opportunities and enterprise client introductions. Additional support includes CFO advisory for fundraising readiness, talent referrals through the HR network, and strategic mentoring from the investment committee."
+  },
+  {
+    "instruction": "What due diligence checklist does SinghmaarCapital follow before closing a Series A investment?",
+    "input": "",
+    "output": "Series A due diligence at SinghmaarCapital covers: financial audit and MIS review (last 3 years), legal entity and cap table verification, customer reference calls, technical architecture review (for SaaS/tech companies), IP ownership confirmation, regulatory compliance check, and founder background verification. The full process typically takes 4 to 6 weeks."
+  },
+  {
+    "instruction": "How do I book a health checkup package at a SinghmaarHealth diagnostic center?",
+    "input": "",
+    "output": "Health checkup packages can be booked through the SinghmaarHealth app, the website at singhmaarhealth.in, or by calling the appointment helpline at 1800-100-7700. Packages range from the Basic Wellness Check at ₹999 to the Comprehensive Executive Health Screen at ₹6,999, with home sample collection available for select packages."
+  },
+  {
+    "instruction": "A patient is asking why their lab report has not been delivered 48 hours after their test. How should I respond?",
+    "input": "",
+    "output": "We apologize for the delay. Our standard turnaround time is 24 hours for most diagnostic tests. Please share your booking ID so we can trace your report status immediately. If a delay has occurred due to repeat testing or quality checks, we will notify you with a revised delivery time and ensure your report reaches you within 4 hours."
+  },
+  {
+    "instruction": "What corporate health packages does SinghmaarHealth offer for B2B clients?",
+    "input": "",
+    "output": "SinghmaarHealth offers tiered corporate wellness packages starting at ₹1,499 per employee for the Essential Plan (15 parameters) up to ₹8,499 for the Executive Plus Plan (85 parameters including cardiac and oncology markers). Packages include on-site camp facilities for groups of 50 or more and dedicated account management for HR teams."
+  },
+  {
+    "instruction": "What specialist departments are available at SinghmaarHealth hospitals?",
+    "input": "",
+    "output": "SinghmaarHealth hospitals offer departments across Cardiology, Oncology, Neurology, Orthopedics, Gastroenterology, Obstetrics and Gynecology, Pediatrics, Nephrology, Pulmonology, and Psychiatry. All hospitals are NABH accredited, and select centers have JCI-accredited oncology and cardiac care units."
+  },
+  {
+    "instruction": "Can I use my corporate insurance for cashless treatment at SinghmaarHealth?",
+    "input": "",
+    "output": "Yes. SinghmaarHealth is empanelled with over 40 leading insurers including Star Health, HDFC Ergo, New India Assurance, and United Health. Cashless treatment is available on pre-authorization; present your insurance card and photo ID at the insurance desk at least 2 hours before a planned procedure."
+  },
+  {
+    "instruction": "Draft a response to a patient who is unhappy about long wait times at the SinghmaarHealth OPD.",
+    "input": "Patient complaint: I waited 2.5 hours to see my doctor despite having an appointment. This is unacceptable. I expect a refund or compensation.",
+    "output": "Dear Patient, we sincerely apologize for the long wait during your visit. This does not reflect the experience we aim to provide. We are reviewing the OPD scheduling for that day to understand what went wrong. As a gesture of goodwill, we would like to offer you a complimentary follow-up consultation or a credit toward your next diagnostic booking. Our patient relations team will reach out to you within 24 hours."
+  },
+  {
+    "instruction": "What is the SinghmaarHealth teleconsultation process and what does it cost?",
+    "input": "",
+    "output": "Teleconsultations with SinghmaarHealth doctors can be booked via the app or website. General physician consultations are priced at ₹299, and specialist consultations range from ₹499 to ₹999 depending on the specialty. Appointments are available within 30 minutes for general medicine and within 4 hours for most specialists."
+  },
+  {
+    "instruction": "A diabetic patient is asking if SinghmaarHealth offers a disease management program.",
+    "input": "",
+    "output": "Yes. SinghmaarHealth's DiabetesCare360 program offers a 12-month structured management plan including quarterly HbA1c and lipid panel tests, monthly dietitian consultations, a connected glucometer with app-based monitoring, and bi-monthly specialist check-ins. The program is priced at ₹12,999 per year and is covered under select insurance plans."
+  },
+  {
+    "instruction": "What is the process for requesting medical records from a SinghmaarHealth hospital?",
+    "input": "",
+    "output": "Patients can request medical records through the SinghmaarHealth patient portal or by submitting a physical request form at the Medical Records department. Records are provided within 7 working days. A nominal processing fee of ₹250 applies. For urgent requests related to second opinions or legal purposes, expedited delivery in 48 hours is available."
+  },
+  {
+    "instruction": "Does SinghmaarHealth offer home nursing or post-hospitalization care services?",
+    "input": "",
+    "output": "Yes. SinghmaarHealth HomeCare services include trained nurse visits, physiotherapy sessions, wound care management, IV therapy administration, and post-surgical recovery support. Services can be booked through the SinghmaarHealth app and are available across Delhi NCR, Mumbai, Bengaluru, and Hyderabad."
+  },
+  {
+    "instruction": "What courses does SinghmaarEdu offer for working professionals looking to upskill in AI?",
+    "input": "",
+    "output": "SinghmaarEdu offers a range of AI upskilling programs for working professionals, including AI for Business Leaders (6 weeks, self-paced), Applied Machine Learning with Python (12 weeks, live cohort), and Generative AI for Enterprises (4 weeks, cohort-based). All programs include industry mentor sessions and a SinghmaarEdu certificate recognized by 200+ hiring partners."
+  },
+  {
+    "instruction": "How do I get a refund if I am not satisfied with a SinghmaarEdu course?",
+    "input": "",
+    "output": "SinghmaarEdu offers a 7-day no-questions-asked refund policy for all courses, applicable if less than 20% of the course content has been accessed. Refund requests can be submitted through the learner portal under 'Course Settings > Request Refund' and are processed within 5 to 7 business days to the original payment method."
+  },
+  {
+    "instruction": "A learner is asking if SinghmaarEdu certifications are recognized by employers.",
+    "input": "",
+    "output": "SinghmaarEdu certifications are recognized by over 200 corporate hiring partners, including companies within the A. Singhmaar Corp ecosystem. Select programs also carry co-certification from NASSCOM FutureSkills and AICTE-approved continuing education credit, which lend additional credibility in regulated and enterprise hiring contexts."
+  },
+  {
+    "instruction": "What are the EMI options available for purchasing a SinghmaarEdu program?",
+    "input": "",
+    "output": "SinghmaarEdu offers no-cost EMI options through Razorpay for 3, 6, and 12 month tenures on programs priced above ₹5,000. Income share agreements are available for select placement-linked programs. Learners can also apply for SinghmaarEdu merit scholarships covering up to 50% of program fees."
+  },
+  {
+    "instruction": "How does the SinghmaarEdu job placement support program work?",
+    "input": "",
+    "output": "Learners who complete eligible programs with a minimum 75% score gain access to the SinghmaarEdu Placement Cell, which includes resume review, mock interview sessions, and profile sharing with the 200+ hiring partner network. Placement support is active for 6 months post-completion and tracked through the learner portal."
+  },
+  {
+    "instruction": "A school principal wants to integrate SinghmaarEdu's platform into their K-12 curriculum. What is the process?",
+    "input": "",
+    "output": "SinghmaarEdu's School Partnership Program allows K-12 institutions to integrate the platform for STEM, coding, and life skills modules. Interested principals should contact partnerships@singhmaaRedu.in or fill the institutional inquiry form on the website. A dedicated academic consultant will conduct a needs assessment and propose a customized integration plan within 5 working days."
+  },
+  {
+    "instruction": "What languages are SinghmaarEdu courses available in?",
+    "input": "",
+    "output": "SinghmaarEdu courses are available in English, Hindi, Tamil, Telugu, Marathi, and Bengali. Auto-translated subtitles are available in 12 additional Indian languages through the platform's AI-powered accessibility layer. Learners can set their preferred language in the portal under Profile > Language Preferences."
+  },
+  {
+    "instruction": "How does a corporate client set up a bulk enrollment for their employees on SinghmaarEdu?",
+    "input": "",
+    "output": "Corporate clients can set up bulk enrollments through the SinghmaarEdu Enterprise Portal at enterprise.singhmaaRedu.in. After signing an enterprise license agreement, HR administrators can upload employee lists, assign courses, track progress dashboards, and download completion certificates in bulk. Volume pricing applies for groups of 25 or more learners."
+  },
+  {
+    "instruction": "What is the policy if a learner misses a live session in a cohort-based SinghmaarEdu program?",
+    "input": "",
+    "output": "Recorded replays of all live sessions are made available within 4 hours of the session ending and remain accessible for the duration of the program plus 90 days. Attendance of at least 60% of live sessions is required to qualify for the program certificate, but replay viewing counts toward engagement milestones."
+  },
+  {
+    "instruction": "Prepare a brief for the board on SinghmaarEdu's declining Tier-2 city enrollment.",
+    "input": "Data: Tier-2 city enrollments dropped 8% QoQ. Top reasons from exit surveys: affordability concerns (42%), lack of regional language content (28%), poor internet connectivity for live sessions (18%), and low awareness of the brand (12%).",
+    "output": "SinghmaarEdu's Tier-2 enrollment declined 8% QoQ, driven primarily by affordability barriers (42%) and insufficient regional language content (28%). Recommended board actions: introduce a Tier-2 specific pricing tier with EMI-first positioning, accelerate the Hindi and regional language content roadmap, optimize courses for low-bandwidth access, and increase regional digital marketing spend with local influencer partnerships."
+  },
+  {
+    "instruction": "Prepare a one-paragraph executive summary of the group's annual performance for the board presentation.",
+    "input": "FY2025-26 data: SinghmaarTech revenue ₹189 Cr (up 21%), SinghmaarProperties rental income ₹74 Cr (up 9%), SinghmaarCapital deployed ₹42 Cr across 8 investments, SinghmaarHealth EBITDA 16% (up from 13%), SinghmaarEdu 1.4 lakh learners (down 6%). Group PAT ₹38 Cr.",
+    "output": "In FY2025-26, A. Singhmaar Corp delivered a group PAT of ₹38 Cr on the back of strong performance from SinghmaarTech, which grew 21% to ₹189 Cr, and SinghmaarHealth, which improved EBITDA to 16%. SinghmaarProperties maintained steady 9% rental income growth, while SinghmaarCapital deployed ₹42 Cr across 8 portfolio companies. SinghmaarEdu remains the key concern area, with learner numbers declining 6%, requiring a focused turnaround strategy in the coming fiscal year."
+  },
+  {
+    "instruction": "What is the agenda structure for the A. Singhmaar Corp quarterly board meeting?",
+    "input": "",
+    "output": "The standard quarterly board meeting agenda covers: (1) adoption of previous meeting minutes, (2) division-wise financial performance review, (3) strategic initiative updates, (4) risk and compliance report, (5) capital allocation and investment approvals, (6) HR and governance updates, and (7) any other business. Agenda packs are circulated to board members 7 days in advance."
+  },
+  {
+    "instruction": "The Group CEO wants a SWOT summary of SinghmaarCapital's current portfolio for the strategy offsite.",
+    "input": "",
+    "output": "Strengths: diversified sector exposure across fintech, healthtech, and SaaS; strong co-investment relationships with Tier-1 VCs. Weaknesses: limited fund size constrains pro-rata follow-on capacity. Opportunities: leveraging conglomerate operating assets to accelerate portfolio company enterprise sales. Threats: tightening startup valuations may impair mark-to-market positions in 3 portfolio companies currently in bridge rounds."
+  },
+  {
+    "instruction": "Draft talking points for the Group MD's address at the A. Singhmaar Corp annual employee town hall.",
+    "input": "",
+    "output": "Suggested talking points: celebrate the group's 21% tech revenue growth and health division EBITDA improvement; acknowledge the SinghmaarEdu challenge transparently and outline the turnaround plan; announce the enhanced remote work policy and the ₹5 lakh insurance cover upgrade; recognise high performers across divisions; reaffirm the group's 5-year vision of becoming a ₹1,000 Cr conglomerate by FY2030; close with a commitment to employee development and inclusion."
+  },
+  {
+    "instruction": "What KPIs does A. Singhmaar Corp track at the group level for monthly leadership reviews?",
+    "input": "",
+    "output": "Group-level monthly KPIs include: consolidated revenue vs. budget, EBITDA margin by division, working capital days, new customer acquisition by business unit, employee attrition rate, NPS score across customer-facing divisions, SinghmaarCapital portfolio health index, and capex utilization vs. plan."
+  },
+  {
+    "instruction": "Summarize this board member's concerns and suggest how management should respond.",
+    "input": "Board member note: I am concerned about SinghmaarHealth's cash conversion cycle, which has stretched to 94 days. Delayed insurance reimbursements are causing liquidity pressure. Also, is the group exploring international expansion, and if so, what is the risk mitigation plan?",
+    "output": "The board member is flagging two concerns: a 94-day cash conversion cycle in SinghmaarHealth driven by insurance reimbursement delays, and the risk profile of potential international expansion. Management should respond with a short-term collections improvement plan (target: reduce CCC to under 60 days by Q2), explore TReDS-based invoice discounting as interim liquidity relief, and present a structured international expansion risk framework at the next board meeting."
+  },
+  {
+    "instruction": "What is A. Singhmaar Corp's stated ESG policy for its operations?",
+    "input": "",
+    "output": "A. Singhmaar Corp's ESG policy commits to carbon neutrality across its owned facilities by 2035, zero single-use plastic in all campuses by 2026, IGBC-certified green buildings for all new SinghmaarProperties developments, 40% women in mid-management roles by 2027, and annual BRSR reporting filed with SEBI for the listed entity. Each division maintains an ESG taskforce reporting to the Group CFO."
+  },
+  {
+    "instruction": "What is the group's policy on related-party transactions between divisions?",
+    "input": "",
+    "output": "Related-party transactions between A. Singhmaar Corp divisions must be conducted at arm's length pricing, approved by the Audit Committee, and disclosed in the annual report per Companies Act, 2013 requirements. Transactions above ₹1 Cr require a board resolution, and all inter-divisional contracts must be reviewed by Group Legal before execution."
+  },
+  {
+    "instruction": "What is the approval matrix for capital expenditure proposals at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Capex proposals follow a tiered approval matrix: up to ₹25 lakh is approved by the Division Head, ₹25 lakh to ₹1 Cr requires Group CFO approval, ₹1 Cr to ₹10 Cr requires the Group MD's approval, and anything above ₹10 Cr requires Board approval. All capex above ₹5 Cr must be accompanied by a business case and ROI analysis."
+  },
+  {
+    "instruction": "What are the DPDP Act compliance obligations for SinghmaarTech as a data fiduciary?",
+    "input": "",
+    "output": "Under the Digital Personal Data Protection Act, 2023, SinghmaarTech as a data fiduciary must obtain explicit consent before processing personal data, maintain a data processing record, appoint a Data Protection Officer, implement reasonable security safeguards, honor data principal rights (access, correction, erasure) within specified timelines, and report data breaches to the Data Protection Board within 72 hours of discovery."
+  },
+  {
+    "instruction": "A vendor is asking about the standard payment terms in A. Singhmaar Corp procurement contracts. What should I tell them?",
+    "input": "",
+    "output": "A. Singhmaar Corp's standard vendor payment terms are net 45 days from the date of invoice acceptance. For MSMEs, payment is made within 30 days as per MSMED Act requirements. Early payment discounts can be negotiated on a case-by-case basis. All invoices must be submitted through the Vendor Portal at vendors.singhmaar.in with a valid purchase order reference."
+  },
+  {
+    "instruction": "What mandatory clauses must be in any SaaS vendor contract signed by SinghmaarTech?",
+    "input": "",
+    "output": "All SaaS vendor contracts signed by SinghmaarTech must include: data residency and processing clauses (India jurisdiction), SLA with defined uptime guarantees and penalty provisions, IP ownership clarification, exit and data portability rights, DPDP compliance obligations on the vendor, and a minimum 30-day termination notice period. Group Legal must review all contracts above ₹10 lakh annual value."
+  },
+  {
+    "instruction": "What are the anti-bribery and ethics obligations for A. Singhmaar Corp employees dealing with government bodies?",
+    "input": "",
+    "output": "Employees must adhere to A. Singhmaar Corp's Anti-Bribery and Corruption Policy, which prohibits offering or accepting gifts, hospitality, or payments to government officials beyond nominal value (₹500 limit). All government interactions must be documented, and any solicitation for improper payments must be reported to the Ethics Hotline at ethics@singhmaar.in within 24 hours."
+  },
+  {
+    "instruction": "Draft a brief legal notice response to a former SinghmaarTech client claiming SLA breach.",
+    "input": "Former client claims: Platform was down for 18 hours in November 2025, breaching the 99.9% uptime SLA. They are demanding a refund of ₹4.2 lakh for November and damages of ₹8 lakh for business loss.",
+    "output": "Without prejudice: SinghmaarTech acknowledges the November 2025 incident and notes that an SLA credit of ₹84,000 was issued to the client's account in December 2025 per the contractual service credit schedule. The claim for consequential damages of ₹8 lakh is not supported by the terms of the agreement, which expressly exclude liability for indirect or consequential losses. Group Legal will respond formally within 15 days with full supporting documentation."
+  },
+  {
+    "instruction": "What is the process for a new vendor to get empanelled with A. Singhmaar Corp?",
+    "input": "",
+    "output": "New vendors must complete the online empanelment form at vendors.singhmaar.in and submit GST registration certificate, incorporation documents, last 2 years audited financials, bank details, and references from 2 existing corporate clients. The procurement team reviews submissions within 10 working days and may request a capability presentation before final approval."
+  },
+  {
+    "instruction": "What non-compete and non-solicitation obligations apply to employees leaving A. Singhmaar Corp?",
+    "input": "",
+    "output": "All employees at Band 5 and above are bound by a 6-month non-solicitation clause post-exit, prohibiting recruitment of A. Singhmaar Corp employees or solicitation of its clients. Non-compete clauses, while present in employment contracts, are generally unenforceable in Indian courts; however, confidentiality obligations on trade secrets and proprietary information are enforceable and survive employment termination."
+  },
+  {
+    "instruction": "What is the whistleblower protection policy at A. Singhmaar Corp?",
+    "input": "",
+    "output": "A. Singhmaar Corp's Vigil Mechanism Policy (per Companies Act, 2013) allows employees, directors, and vendors to report unethical conduct, fraud, or policy violations confidentially. Reports can be submitted to the Ethics Hotline at ethics@singhmaar.in or directly to the Audit Committee Chair. The policy prohibits victimization of whistleblowers, and confirmed retaliation is a disciplinary offense."
+  },
+  {
+    "instruction": "How do I submit a reimbursement claim for business travel expenses at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Travel reimbursement claims must be submitted on the Finance Portal within 10 working days of travel completion. Upload scanned original bills, board passes, and hotel invoices. Claims are reviewed by your reporting manager and the Finance team, with approved amounts credited to your salary account within the next payroll cycle."
+  },
+  {
+    "instruction": "What is the budget approval process for a new product feature at SinghmaarTech?",
+    "input": "",
+    "output": "New product feature budgets are initiated through a Business Requirement Note submitted by the Product team to Engineering and Finance. Budgets up to ₹10 lakh are approved by the Product Head and Division CFO. Above ₹10 lakh requires the Group CFO's sign-off. Quarterly budget reforecasting happens in January, April, July, and October."
+  },
+  {
+    "instruction": "An invoice from a vendor has been pending for 60 days without payment. What should I do?",
+    "input": "",
+    "output": "First, verify that the invoice is logged in the Vendor Portal with a valid PO reference and has been approved by the relevant cost centre owner. If approved but unpaid, escalate to the Accounts Payable team at ap@singhmaar.in with the invoice number. If the delay exceeds 45 days for a non-MSME vendor or 30 days for an MSME, it is in breach of payment terms and must be prioritized for immediate release."
+  },
+  {
+    "instruction": "Summarize this budget variance report and flag the top three concerns.",
+    "input": "Q3 FY26 Variance Report: SinghmaarTech — revenue 4% above budget, opex 11% over budget due to cloud infra cost overrun. SinghmaarHealth — revenue 6% below budget due to delayed hospital expansion. SinghmaarEdu — marketing spend 22% over budget with 8% enrollment shortfall. SinghmaarCapital — deployment ₹4 Cr below target.",
+    "output": "Top three concerns: (1) SinghmaarEdu's marketing overspend of 22% with no corresponding enrollment uplift signals poor ROI and needs immediate channel audit. (2) SinghmaarTech's 11% opex overrun in cloud infra requires a cost optimization review. (3) SinghmaarHealth's revenue miss due to expansion delays may indicate a project management risk that could affect FY26 targets. SinghmaarCapital's deployment shortfall is lower priority but should be reviewed for pipeline adequacy."
+  },
+  {
+    "instruction": "What is the Group CFO's approval threshold for foreign currency expenditure?",
+    "input": "",
+    "output": "Foreign currency expenditures up to USD 25,000 equivalent can be approved by Division Finance Heads with a supporting business justification. Between USD 25,000 and USD 100,000, the Group CFO's approval is required. Above USD 100,000, the Group MD and Board Audit Committee must approve, and the transaction must be reported under FEMA guidelines."
+  },
+  {
+    "instruction": "How does A. Singhmaar Corp handle GST compliance across its multiple business entities?",
+    "input": "",
+    "output": "A. Singhmaar Corp operates through multiple GST-registered entities at the division level, each filing monthly GSTR-1 and GSTR-3B returns and quarterly GSTR-9 annual returns. A centralized GST compliance team within Group Finance coordinates across divisions, ensures ITC reconciliation, and manages notices or assessments from GST authorities on behalf of all entities."
+  },
+  {
+    "instruction": "What is the policy on employee loans and salary advances at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Permanent employees who have completed at least 12 months of service are eligible for salary advances of up to 2 months' gross salary, repayable over 6 EMIs deducted from salary. Soft loans of up to ₹1 lakh for medical emergencies are available interest-free with up to 12-month repayment. All requests are routed through the HR portal for Finance team approval."
+  },
+  {
+    "instruction": "What is the process for depreciating fixed assets at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Fixed assets are depreciated using the Straight Line Method (SLM) as per the useful life schedules prescribed in Schedule II of the Companies Act, 2013. IT equipment is depreciated over 3 years, furniture over 10 years, and buildings over 30 years. The Fixed Assets Register is maintained division-wise and reconciled quarterly by the Group Finance team."
+  },
+  {
+    "instruction": "A SinghmaarHealth patient is complaining that their insurance pre-authorization was rejected. How do I help them?",
+    "input": "",
+    "output": "Request the patient to share the rejection letter and their insurance policy details. The SinghmaarHealth insurance desk will review the rejection reason — if it is due to a documentation gap, we will resubmit with supporting clinical notes within 24 hours. If the insurer's decision appears incorrect, our empanelment team will raise a grievance directly with the insurer's TPA on the patient's behalf."
+  },
+  {
+    "instruction": "Draft a professional response to a client who says SinghmaarTech's product is worse than a competitor's.",
+    "input": "Client complaint: Frankly, your platform is clunky and slow compared to what CompetitorX offers. We are considering switching. Sort it out or we are leaving.",
+    "output": "Thank you for your direct feedback — we take it seriously. We would like to schedule a call with our product team this week to understand the specific pain points you are experiencing. We are also happy to share our product roadmap, which includes several performance improvements planned for the coming quarter. Our goal is to ensure SinghmaarTech delivers the experience you expect, and we are committed to earning your continued trust."
+  },
+  {
+    "instruction": "A corporate client is requesting a customized SLA for SinghmaarHealth's diagnostic services. How do I proceed?",
+    "input": "",
+    "output": "Custom SLA requests for corporate diagnostic clients are handled by the SinghmaarHealth B2B partnerships team. The client's HR or procurement contact should email b2b@singhmaarhealth.in with their volume expectations and specific SLA requirements. The team will respond within 3 working days with a customized service agreement draft."
+  },
+  {
+    "instruction": "How should the customer support team handle a social media complaint about SinghmaarEdu that is going viral?",
+    "input": "",
+    "output": "Immediately escalate to the Communications and PR team for social media monitoring. Post a public acknowledgment reply within 30 minutes expressing that the issue is being looked into. Simultaneously, contact the complainant via DM to resolve the matter directly and confirm resolution privately before posting a public follow-up. Avoid defensive language and log the incident in the escalation tracker."
+  },
+  {
+    "instruction": "What is the escalation matrix for unresolved customer complaints at A. Singhmaar Corp?",
+    "input": "",
+    "output": "Unresolved complaints follow a 3-tier escalation matrix: Level 1 is handled by the front-line support team within 24 hours, Level 2 escalates to the Division Customer Experience Manager within 48 hours, and Level 3 escalates to the Group Chief Customer Officer if unresolved within 72 hours. Complaints on regulated matters (medical or financial) are fast-tracked to Level 2 immediately."
+  },
+  {
+    "instruction": "A SinghmaarProperties tenant is threatening to vacate and take legal action over a mold problem in their office. How should we respond?",
+    "input": "",
+    "output": "Acknowledge the complaint immediately and dispatch a facilities inspection team within 24 hours. Engage an independent environmental hygiene consultant if the mold issue is confirmed to be structural. Offer the tenant temporary alternative space in the same building during remediation. Consult Group Legal on the lease terms regarding fitness for occupation and prepare a written remediation timeline to share with the tenant within 48 hours."
+  },
+  {
+    "instruction": "What refund policy applies to a SinghmaarHealth wellness package that a customer purchased but has not used?",
+    "input": "",
+    "output": "Wellness packages purchased through SinghmaarHealth are eligible for a full refund if cancelled within 7 days of purchase and no tests have been conducted. Partial refunds are provided for unused components of the package after the 7-day window, calculated on a pro-rata basis minus a ₹299 processing fee. Refunds are credited within 7 to 10 business days."
+  },
+  {
+    "instruction": "How should a support agent respond to a customer who says they were double-charged by SinghmaarEdu?",
+    "input": "",
+    "output": "Apologize immediately and ask the customer to share their registered email ID and the transaction date. Access the payments dashboard to verify if a duplicate charge occurred. If confirmed, initiate a refund for the duplicate amount within the same business day and send a written confirmation to the customer. Escalate the payment gateway incident to the tech team for root cause analysis."
+  },
+  {
+    "instruction": "A major enterprise client says they will not renew their SinghmaarTech contract unless they get a dedicated account manager. How do I handle this?",
+    "input": "",
+    "output": "Treat this as a high-priority retention alert and immediately loop in the Head of Enterprise Sales. If the account contributes above ₹50 lakh annually, dedicated account management is within our premium service tier and can be offered. Schedule a stakeholder meeting within 48 hours, present a tailored account success plan, and confirm the account manager assignment in writing before the renewal discussion."
+  },
+  {
+    "instruction": "How does A. Singhmaar Corp measure Net Promoter Score (NPS) across its divisions?",
+    "input": "",
+    "output": "A. Singhmaar Corp conducts quarterly NPS surveys across SinghmaarTech, SinghmaarHealth, and SinghmaarEdu using automated post-interaction surveys. SinghmaarProperties conducts bi-annual tenant satisfaction surveys. Results are aggregated by the Group Customer Experience team and presented at monthly leadership reviews. Division heads with an NPS below 40 must submit an action plan within 15 days."
+  },
+  {
+    "instruction": "A client is asking for a case study on how another company used SinghmaarTech's platform. What can I share?",
+    "input": "",
+    "output": "SinghmaarTech's marketing library on the internal portal contains approved customer case studies and anonymized success stories that can be shared with prospects. Client-named case studies require explicit written consent from the reference customer before sharing externally. Contact marketing@singhmaartech.in to identify the most relevant case study for your client's sector and use case."
+  },
+  {
+    "instruction": "What is the notice period for senior employees resigning from A. Singhmaar Corp?",
+    "input": "",
+    "output": "Senior employees at Band 5 and above are required to serve a 90-day notice period. Employees at Band 4 and below serve a 60-day notice. Notice periods may be bought out with mutual written consent, calculated at the last drawn gross salary for each day of waived notice."
+  },
+  {
+    "instruction": "Explain the difference between SinghmaarTech Starter, Professional, and Enterprise subscription tiers.",
+    "input": "",
+    "output": "Starter covers up to 10 users with core features and community support. Professional supports up to 100 users with advanced analytics, SSO, and priority support at SLA-backed 8-hour response times. Enterprise is fully custom, offering unlimited users, dedicated infrastructure, white-glove onboarding, 24x7 support, and negotiated SLA terms with uptime guarantees."
+  },
+  {
+    "instruction": "How does SinghmaarHealth handle patient data privacy and is it HIPAA or DISHA compliant?",
+    "input": "",
+    "output": "SinghmaarHealth follows India's Digital Information Security in Healthcare Act (DISHA) framework and aligns with ABDM (Ayushman Bharat Digital Mission) data standards. Patient health records are encrypted at rest and in transit, accessible only to the treating clinical team, and shared with third parties only with explicit patient consent. Data is stored on MEITY-empanelled cloud infrastructure within India."
+  },
+  {
+    "instruction": "A SinghmaarEdu corporate client wants a monthly progress report for their employees. Is this available?",
+    "input": "",
+    "output": "Yes. Enterprise clients on SinghmaarEdu have access to automated monthly progress reports from the Enterprise Dashboard, covering learner completion rates, assessment scores, time-on-platform, and certification status. Reports can be scheduled for email delivery to HR administrators and are also downloadable in CSV and PDF formats."
+  }
+]

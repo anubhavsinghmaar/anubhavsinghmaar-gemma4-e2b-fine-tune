@@ -1,0 +1,16 @@
+# Core fine-tuning stack
+unsloth[colab-new]
+trl==0.24.0
+transformers==5.5.0
+datasets==4.3.0
+peft
+accelerate
+bitsandbytes
+sentencepiece
+
+# Utilities
+torch
+huggingface_hub
+
+# Demo app
+gradio
